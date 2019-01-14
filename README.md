@@ -4,6 +4,8 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+* [Notes](#notes)
+* [Player Guide](#player guide)
 
 ## Instructions
 
@@ -14,3 +16,10 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+## Notes
+ES6 arrow functions and variable declaration were used in this project. 
+
+## Player Guide
+Select the desired width and height of the canvas and click submit.
+pick a color and select target cell to color the canvas.  
