@@ -2,10 +2,10 @@
 
 // Select color input
 let inputColor = document.getElementById('colorPicker');
+
 // Select size input
 let inputSizeHeight = document.getElementById('inputHeight');
 let inputSizeWidth = document.getElementById('inputWidth');
-
 
 // When size is submitted by the user, call makeGrid()
 document.getElementById("sizePicker")
@@ -25,6 +25,7 @@ function makeGrid(e) {
   tblGrid.innerHTML = "";
 
   const fragment = document.createDocumentFragment();
+
   // loop over the height size to create the table row
   for (var i = 0; i < inputSizeHeightValue; i++) {
     let gridRow = document.createElement("tr");
@@ -44,7 +45,6 @@ function makeGrid(e) {
     fragment.appendChild(gridRow);
   }
   tblGrid.appendChild(fragment);
-
 }
 
 // style the canvas grid cell
